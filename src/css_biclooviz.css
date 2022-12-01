@@ -1,0 +1,28 @@
+body
+{
+    margin: 0;
+}
+
+header
+{
+    position: relative;
+    background-color: black;
+    padding: 35px 300px;
+    border: 200px;
+
+}
+
+
+#graphique
+{
+   width: 200px;
+}
+
+footer
+{
+    position: relative;
+    background-color: #DE781F;
+    padding: 35px 300px;
+    border: 200px;
+    margin-top: 354px;
+}
