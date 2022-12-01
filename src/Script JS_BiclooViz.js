@@ -8,11 +8,11 @@ async function getBikes() {
   return data;
 }
 
-//
+
 async function totalBikes() {
-//Permet de stocker la data en JS fournie par la fonction getBikes()
+  //Permet de stocker la data en JS fournie par la fonction getBikes()
   let resultBikes = await getBikes(url);
-//Création des variables d'initialisations pour nos différents calculs
+  //Création des variables d'initialisations pour nos différents calculs
   let bikeSum = 0;
   let totalBike = 0;
 
@@ -22,19 +22,19 @@ async function totalBikes() {
   }
   console.log(bikeSum);
 
-  //Boucle pour avoir le total de vélos 
+  //Boucle pour avoir le total de vélos
   for (let i = 0; i < resultBikes.records.length; i++) {
     totalBike += resultBikes.records[i].fields.bike_stands;
   }
 
   let ctx = document.getElementById("graph1");
+  document.getElementById("compteur").innerHTML += bikeSum;
 
   //Conversion du nombre de vélos en circulation en pourcentage
   let result = Math.round((bikeSum * 100) / totalBike);
 
   //Initialisation du nouveau graphique
   new Chart(ctx, {
-
     type: "doughnut",
     data: {
       labels: ["Velos en circulation", "Total de velos"],
@@ -42,7 +42,7 @@ async function totalBikes() {
         {
           labels: "# de velos",
           backgroundColor: ["#000192", "#000000"],
-          data: [result, (100 - result)],
+          data: [result, 100 - result],
           borderWidth: 1,
         },
       ],
