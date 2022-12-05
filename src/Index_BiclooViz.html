@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css_biclooviz.css">
+    <link rel="stylesheet" href="css_biclooviz.css" />
     <title>BiclooViz</title>
     <script src="Script JS_BiclooViz.js"></script>
   </head>
-  
+
   <body>
     <nav>
       <div class="logo_bicloo">
-        <a href="https://www.bicloo.nantesmetropole.fr/fr/home" > <img src="images/logo_bicloo.png" alt="logo Bicloo"></a >
+        <a href="https://www.bicloo.nantesmetropole.fr/fr/home" target="_blank"> <img src="images/logo_bicloo.png" alt="logo Bicloo"></a >
+    
+        
       </div>
 
       <div class="arrow">
@@ -20,7 +22,7 @@
       </div>
       
       <div class="cycliste">
-        <img src="images/cycliste.png" alt="cycliste"/>
+        <img src="images/cycliste.png" alt="cycliste" />
       </div>
 
       <div class="arrow2">
@@ -28,25 +30,33 @@
       </div>
 
       <div class="logo_ada">
-        <a href="https://adatechschool.fr/" > <img src="images/logo_ada.png" alt="logo ada"></a >
+        <a href="https://adatechschool.fr/" target="_blank"> <img src="images/logo_ada.png" alt="logo ada"></a >
       </div>
     </nav>
-    <header>
-    </header>
+    <header></header>
 
     <div id="graphique">
       <canvas id="graph1"></canvas>
     </div>
     <div id="compteur"></div>
     <form>
-      <button class="button" value="Reload page" onClick="reload"> <strong><em>ACTUALISER</em></strong></button>
+      <button class="button" value="Reload page" onClick="reload">
+        <strong><em>ACTUALISER</em></strong>
+      </button>
     </form>
     <div class="velo">
-      <img src="images/pict_velo.png" alt="image_velo">
+      <img src="images/pict_velo.png" alt="image_velo" />
     </div>
     <footer>
-
+      <div class="ecran">
+        <img src="images/ecran.png" alt="ecran"/>
+      </div>
+      <div class="credits">
+        <p>réalisé par Cindy/Corentin/Lorena</p>
+      </div>
+      </ul>
     </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </body>
 </html>
