@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
 body
 {
     margin: auto;
@@ -43,7 +45,7 @@ nav .logo_ada {
 
 nav .logo_ada img {
 	width: 120px;
-	height: 50px;
+	height: 40px;
 }
 
 
@@ -77,9 +79,34 @@ nav .logo_ada img {
 
 footer
 {
-    position: relative;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #DE781F;
+    color: white;
+	    
+    /*position: relative;
     background-color: #DE781F;
     padding: 35px 300px;
-    border: 200px;
-    margin-top: 354px;
+    border: 200px;*/ 
+}
+
+footer .ecran {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+footer .ecran img{
+    width: 50px;
+	height: 50px;
+	border-radius: 20%;
+    filter: invert(100%);
+}
+
+footer .credits{
+    margin-top: 0.5%;
+    margin-left: 20px;
+    font-family: 'Raleway', sans-serif;
 }
