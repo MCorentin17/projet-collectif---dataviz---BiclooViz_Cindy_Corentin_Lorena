@@ -153,3 +153,23 @@ footer .credits {
     margin-left: 20px;
     font-family: 'Raleway', sans-serif;
 }
+
+.bubble {
+  flex: 1.2;
+  position: absolute;
+  background-color: #fdfdfd;
+  border-radius: 15px;
+  padding: 100px;
+  width: 100px;
+  left: 1100px;
+  top: 200px;
+  border: 3px black solid;
+  box-shadow: 0px 2px 5px #1c1a19;
+}
+
+.arrow_bubble {
+  display: flex;
+  position: relative;
+  left: 1020px;
+  top: 20px;
+}
