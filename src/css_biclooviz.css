@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,100&display=swap');
 
-body
-{
+body {
     margin: auto;
 }
 
@@ -11,7 +10,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: black;
-  position: sticky;
   top: 0;
 }
 
@@ -48,8 +46,38 @@ nav .logo_ada img {
 	height: 40px;
 }
 
+.project_title {
+  position: relative;
+  margin-top: 2px;
+  margin-left: 40%;
+  display: flex;
+  font-family: 'Raleway';
+  font-size: 250%;
+  font-weight: bold;
+}
+
+.project_title img {
+  width: 50px;
+	height: 50px;
+  margin-top: 8%;
+  margin-right: 20px;
+}
+
+
+.velo{
+  position: relative; 
+  margin-top: 2%;
+  display: flex;
+}
+
+.velo img {
+  width: 30%;
+  height: 20%;
+  margin: auto;
+}
+
 #graphique {
-    display: block;
+    display: flex;
     position: relative;
     box-sizing: border-box;
     height: 14em;
@@ -73,24 +101,15 @@ nav .logo_ada img {
   background-color: grey;
 }
 
-.velo img {
-  display: block;
-  height: 550px;
-  margin: auto;
-}
 
-footer
-{
+
+footer {
     margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
     background-color: #DE781F;
     color: white;
-	    
-    /*position: relative;
-    background-color: #DE781F;
-    padding: 35px 300px;
-    border: 200px;*/ 
+    position: sticky;
 }
 
 footer .ecran {
@@ -100,14 +119,14 @@ footer .ecran {
     display: flex;
     align-items: center;
 }
-footer .ecran img{
-    width: 50px;
+footer .ecran img {
+  width: 50px;
 	height: 50px;
 	border-radius: 20%;
-    filter: invert(100%);
+  filter: invert(100%);
 }
 
-footer .credits{
+footer .credits {
     margin-top: 0.5%;
     margin-left: 20px;
     font-family: 'Raleway', sans-serif;
