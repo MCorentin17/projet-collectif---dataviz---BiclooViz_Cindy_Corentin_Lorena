@@ -8,7 +8,6 @@ async function getBikes() {
   return data;
 }
 
-
 async function totalBikes() {
   //Permet de stocker la data en JS fournie par la fonction getBikes()
   let resultBikes = await getBikes(url);
@@ -37,11 +36,11 @@ async function totalBikes() {
   new Chart(ctx, {
     type: "doughnut",
     data: {
-      labels: ["Velos en circulation", "Total de velos"],
+      
       datasets: [
         {
           labels: "# de velos",
-          backgroundColor: ["#000192", "#000000"],
+          backgroundColor: ["#de781f", "#000000"],
           data: [result, 100 - result],
           borderWidth: 1,
         },
