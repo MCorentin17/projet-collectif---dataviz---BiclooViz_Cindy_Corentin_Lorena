@@ -3,13 +3,47 @@ body
     margin: auto;
 }
 
-header
-{
-    position: relative;
-    background-color: black;
-    padding: 35px 300px;
-    border: 200px;
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	position: sticky;
+	top: 0;
+}
 
+nav .logo_bicloo {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+nav .logo_bicloo img {
+	width: 100px;
+	height: 50;
+	border-radius: 20%;
+}
+
+nav .cycliste {
+    display: flex;
+    align-items: center;
+}
+
+nav .cycliste img {
+	width: 100px;
+	height: 100px;
+	border-radius: 20%;
+    filter: invert(100%);
+}
+
+nav .logo_ada {
+    margin-right: 20px;
+    display: flex;
+}
+
+nav .logo_ada img {
+	width: 120px;
+	height: 50px;
 }
 
 
