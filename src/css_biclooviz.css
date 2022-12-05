@@ -1,5 +1,8 @@
-body {
-  margin: auto;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+body
+{
+    margin: auto;
 }
 
 nav {
@@ -41,8 +44,8 @@ nav .logo_ada {
 }
 
 nav .logo_ada img {
-  width: 130px;
-  height: 40px;
+	width: 120px;
+	height: 40px;
 }
 
 #graphique {
@@ -76,10 +79,36 @@ nav .logo_ada img {
   margin: auto;
 }
 
-footer {
-  position: relative;
-  background-color: #de781f;
-  padding: 35px 300px;
-  border: 200px;
-  margin-top: 354px;
+footer
+{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #DE781F;
+    color: white;
+	    
+    /*position: relative;
+    background-color: #DE781F;
+    padding: 35px 300px;
+    border: 200px;*/ 
+}
+
+footer .ecran {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+footer .ecran img{
+    width: 50px;
+	height: 50px;
+	border-radius: 20%;
+    filter: invert(100%);
+}
+
+footer .credits{
+    margin-top: 0.5%;
+    margin-left: 20px;
+    font-family: 'Raleway', sans-serif;
 }
