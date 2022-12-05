@@ -22,9 +22,8 @@ nav .logo_bicloo {
   align-items: center;
 }
 nav .logo_bicloo img {
-  width: 100px;
-  height: 50;
-  border-radius: 20%;
+	width: 120px;
+	height: 50;
 }
 
 nav .cycliste {
@@ -46,8 +45,22 @@ nav .logo_ada {
 
 nav .logo_ada img {
 	width: 120px;
-	height: 40px;
+	height: 50px;
 }
+
+nav .arrow img {
+    display: flex;
+    position: relative;
+    left: 240px;
+    top: 30px;
+}
+
+nav .arrow2 img {
+    position: relative;
+    right: 237px;
+    top: 30px;
+}
+   
 
 #graphique {
     display: block;
