@@ -1,10 +1,9 @@
-let url =
-  "https://data.nantesmetropole.fr/api/records/1.0/search/?dataset=244400404_stations-velos-libre-service-nantes-metropole-disponibilites&q=&rows=200&facet=banking&facet=bonus&facet=status&facet=contract_name";
-
+let url = "https://data.nantesmetropole.fr/api/v2/catalog/datasets/244400404_stations-velos-libre-service-nantes-metropole-disponibilites/records?limit=100&offset=0&timezone=UTC&apikey=23b946c52b5a4af64281b14115fbde07eb7a8de57d5a2a7944628511";
 //Récupèrer l'ensemble de la data et de la retranscrire en JS
 async function getBikes() {
   let response = await fetch(url);
   let data = await response.json();
+  console.log(data)
   return data;
 }
 
@@ -17,13 +16,13 @@ async function totalBikes() {
 
   //Boucle pour avoir les vélos en circulation
   for (let i = 0; i < resultBikes.records.length; i++) {
-    bikeSum += resultBikes.records[i].fields.available_bike_stands;
+    bikeSum += resultBikes.records[i].record.fields.available_bike_stands;
   }
   console.log(bikeSum);
 
   //Boucle pour avoir le total de vélos
   for (let i = 0; i < resultBikes.records.length; i++) {
-    totalBike += resultBikes.records[i].fields.bike_stands;
+    totalBike += resultBikes.records[i].record.fields.bike_stands;
   }
 
   let ctx = document.getElementById("graph1");
