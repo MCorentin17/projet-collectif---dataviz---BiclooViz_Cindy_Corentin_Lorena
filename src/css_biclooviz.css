@@ -19,14 +19,14 @@ nav .logo_bicloo {
     align-items: center;
 }
 nav .logo_bicloo img {
-	width: 100px;
+	width: 120px;
 	height: 50;
-	border-radius: 20%;
 }
 
 nav .cycliste {
     display: flex;
     align-items: center;
+    
 }
 
 nav .cycliste img {
@@ -42,11 +42,23 @@ nav .logo_ada {
 }
 
 nav .logo_ada img {
-	width: 120px;
+	width: 140px;
 	height: 50px;
 }
 
+nav .arrow img {
+    display: flex;
+    position: relative;
+    left: 240px;
+    top: 30px;
+}
 
+nav .arrow2 img {
+    position: relative;
+    right: 237px;
+    top: 30px;
+}
+   
 #graphique
 {
    width: 200px;

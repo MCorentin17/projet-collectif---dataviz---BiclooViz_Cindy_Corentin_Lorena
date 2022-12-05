@@ -41,7 +41,7 @@ async function totalBikes() {
       datasets: [
         {
           labels: "# de velos",
-          backgroundColor: ["#000192", "#000000"],
+          backgroundColor: ["#DE781F", "#000000"],
           data: [result, 100 - result],
           borderWidth: 1,
         },
