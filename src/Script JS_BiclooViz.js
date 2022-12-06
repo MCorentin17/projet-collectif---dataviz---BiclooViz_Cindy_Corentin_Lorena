@@ -34,8 +34,9 @@ async function totalBikes() {
   //Initialisation du nouveau graphique
   new Chart(ctx, {
     type: "doughnut",
+    
     data: {
-      
+      labels : ["Vélos utilisés","Vélos disponibles" ],
       datasets: [
         {
           labels: "# de velos",
@@ -45,7 +46,13 @@ async function totalBikes() {
         },
       ],
     },
-    options: {},
+    options: {
+      plugins: {
+          legend: {
+              position: 'right'
+          }
+      }
+  }
   });
 }
 totalBikes();
