@@ -101,11 +101,13 @@ nav .arrow2 img {
 }
 
 #compteur {
-padding: auto;
-font-size: 130px;
-font-family: 'Anton';
-letter-spacing: 10px;
-margin-left: 10%;
+  position: absolute;
+  left: 8%;
+  /*padding: auto;*/
+  font-size: ;
+  font-family: 'Anton';
+  letter-spacing: 0.5em;
+  bottom: 45%;
 }
 
 .button {
@@ -155,37 +157,12 @@ footer .credits {
     font-family: 'Raleway', sans-serif;
 }
 
-.all_bubble {
-  display: flex;
-  justify-content: flex-end;
-
-
-}
-
 .bubble {
   display: flex;
   position: absolute;
-  justify-content: center;
-  background-color: #fdfdfd;
-  border-radius: 15px;
-  width: 30%;
-  border: 3px black solid;
-  box-shadow: 0px 2px 5px #1c1a19;
+  left: 65%;
 }
 
-.arrow_bubble {
-  display: flex;
-  justify-content: flex-start;
-  left: 64%;
-  bottom: 40%;
-}
-
-.bubble p {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 1.5em;
-  font-family: 'Raleway';
-  font-weight: bold;
-  block-size: auto;
-
+.bubble img {
+  width: 80%;
 }
