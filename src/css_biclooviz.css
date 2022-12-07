@@ -45,12 +45,41 @@ nav .logo_ada {
 nav .logo_ada img {
 	width: 140px;
 	height: 50px;
+  animation: logo_ada 1s ease;
 }
 
+@keyframes logo_ada {
+  30% {
+transform: scale(1.2);
+  }
+  40%, 60% {
+transform: rotate(-20deg) scale(1.2);
+  }
+  50% {
+transform: rotate(20deg) scale(1.2);
+  }
+  70%{
+transform: rotate(0deg);
+  }
+  100%{
+transform: scale(1);
+  }
+}
 nav .bike_logo img{
   width: 77%;
+  animation: bike_logo 2s ease ;
 }
+@keyframes bike_logo {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
 
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 .bike_logo {
   display: flex;
   position: relative;
@@ -93,17 +122,17 @@ nav .bike_logo img{
   height: 20%;
   margin: auto;
 }
+
 .graph {
   display: flex;
   flex-flow: column-reverse wrap-reverse;
 }
 #graphique {
     position: absolute;
-    width: 16%;
-    height: 44%;
-    margin-left: 53%;
-    margin-right: 40%;
-    top: 52%;
+    margin-left: 53.7%;
+    height: 73%;
+    width: 26%;
+    top: 41%;
 }
 
 .velo_graph {
