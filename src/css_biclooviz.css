@@ -99,11 +99,10 @@ nav .bike_logo img{
 }
 #graphique {
     position: absolute;
-    width: 16%;
-    height: 44%;
-    margin-left: 53%;
-    margin-right: 40%;
-    top: 52%;
+    margin-left: 53.7%;
+    height: 73%;
+    width: 26%;
+    top: 41%;
 }
 
 .velo_graph {
