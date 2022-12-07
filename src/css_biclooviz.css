@@ -3,6 +3,7 @@
 
 body {
     margin: auto;
+
 }
 
 nav {
@@ -37,26 +38,24 @@ nav .cycliste img {
 }
 
 nav .logo_ada {
-  margin-right: 20px;
+  margin-right: 10px;
   display: flex;
 }
 
 nav .logo_ada img {
-	width: 120px;
+	width: 140px;
 	height: 50px;
 }
 
-nav .arrow img {
-    display: flex;
-    position: relative;
-    left: 240px;
-    top: 30px;
+nav .bike_logo img{
+  width: 77%;
 }
 
-nav .arrow2 img {
-    position: relative;
-    right: 237px;
-    top: 30px;
+.bike_logo {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 .project_title {
@@ -73,6 +72,13 @@ nav .arrow2 img {
   width: 50px;
 	height: 50px;
   margin-right: 20px;
+  }
+
+.project_title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: -2%;
 }
 
 
@@ -80,7 +86,6 @@ nav .arrow2 img {
   position: relative; 
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: 2%;
 }
 
@@ -91,46 +96,83 @@ nav .arrow2 img {
 }
 
 #graphique {
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    height: 14em;
-    width: 39em;
-    top: 35.5em;
-    left: 51.25em;
+    position: absolute;
+    width: 16%;
+    height: 44%;
+    margin-left: 53%;
+    margin-right: 40%;
+    top: 52%;
+}
+
+.velo_graph {
+  position: relative;
 }
 
 #compteur {
-  position: absolute;
-  left: 8%;
-  /*padding: auto;*/
-  font-size: ;
+  display: flex;
   font-family: 'Anton';
-  letter-spacing: 0.5em;
-  bottom: 45%;
+  letter-spacing: 0.6em;
+  color: white;
+  font-size: 2.9rem;
+}
+
+.cadre_compteur {
+  background-color: black;
+  display: flex;
+  padding-left: 10%;
+  margin-bottom: 10%;
+}
+
+.compt_act {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  margin: auto;
 }
 
 .button {
+  display: flex;
+  position: absolute;
   width: 150px;
-  height: 22px;
-  margin-left: 10%;
+  height: 30px;
   font-size: large;
-  line-height: 1.2;
+  line-height: 1.8;
   border-radius: 10px;
   border: none;
   cursor: pointer;
   background-color: #de781f;
+  margin-left: 11.5%;
+  bottom:45%;
+  padding-left: 1%;
 }
 
 .button:hover {
   background-color: grey;
 }
 
+.image_button img {
+  width: 50%;
+}
 
+.image_button {
+  display: flex;
+  position: absolute;
+  bottom: 28%;
+  left: 12.5%;
+}
+
+.arrow_bike {
+  display: flex;
+  position: absolute;
+  bottom: 30%;
+  right: 17%;
+  height: 10%;
+}
 
 footer {
-    margin-top: 5%;
+    margin-bottom: 0;
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     background-color: #DE781F;
     color: white;
