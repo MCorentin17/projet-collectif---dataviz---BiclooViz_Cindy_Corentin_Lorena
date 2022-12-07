@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 body {
     margin: auto;
@@ -21,8 +21,8 @@ nav .logo_bicloo {
   align-items: center;
 }
 nav .logo_bicloo img {
-	width: 120px;
-	height: 50;
+  width: 120px;
+  height: 50;
 }
 
 nav .cycliste {
@@ -63,14 +63,14 @@ nav .bike_logo img{
   display: flex;
   justify-content: center;
   align-items: baseline;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-size: 250%;
   font-weight: bold;
 }
 
 .project_title img {
   width: 50px;
-	height: 50px;
+  height: 50px;
   margin-right: 20px;
   }
 
@@ -81,9 +81,8 @@ nav .bike_logo img{
   margin-top: -2%;
 }
 
-
-.velo{
-  position: relative; 
+.velo {
+  position: relative;
   display: flex;
   justify-content: center;
   margin-top: 2%;
@@ -94,7 +93,10 @@ nav .bike_logo img{
   height: 20%;
   margin: auto;
 }
-
+.graph {
+  display: flex;
+  flex-flow: column-reverse wrap-reverse;
+}
 #graphique {
     position: absolute;
     width: 16%;
@@ -180,23 +182,23 @@ footer {
 }
 
 footer .ecran {
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
 }
 footer .ecran img {
   width: 50px;
-	height: 50px;
-	border-radius: 20%;
+  height: 50px;
+  border-radius: 20%;
   filter: invert(100%);
 }
 
 footer .credits {
-    margin-top: 0.5%;
-    margin-left: 20px;
-    font-family: 'Raleway', sans-serif;
+  margin-top: 0.5%;
+  margin-left: 20px;
+  font-family: "Raleway", sans-serif;
 }
 
 .bubble {
