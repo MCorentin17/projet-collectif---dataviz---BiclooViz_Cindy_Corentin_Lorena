@@ -3,7 +3,6 @@
 
 body {
     margin: auto;
-
 }
 
 nav {
@@ -20,6 +19,7 @@ nav .logo_bicloo {
   display: flex;
   align-items: center;
 }
+
 nav .logo_bicloo img {
   width: 120px;
   height: 50;
@@ -65,10 +65,12 @@ transform: rotate(0deg);
 transform: scale(1);
   }
 }
+
 nav .bike_logo img{
   width: 77%;
   animation: bike_logo 2s ease ;
 }
+
 @keyframes bike_logo {
   0% {
     opacity: 0;
@@ -80,6 +82,7 @@ nav .bike_logo img{
     transform: translateX(0);
   }
 }
+
 .bike_logo {
   display: flex;
   position: relative;
@@ -101,7 +104,7 @@ nav .bike_logo img{
   width: 50px;
   height: 50px;
   margin-right: 20px;
-  }
+}
 
 .project_title {
   display: flex;
@@ -127,6 +130,7 @@ nav .bike_logo img{
   display: flex;
   flex-flow: column-reverse wrap-reverse;
 }
+
 #graphique {
     position: absolute;
     margin-left: 53.7%;
@@ -217,6 +221,7 @@ footer .ecran {
   display: flex;
   align-items: center;
 }
+
 footer .ecran img {
   width: 50px;
   height: 50px;
@@ -238,4 +243,9 @@ footer .credits {
 
 .bubble img {
   width: 80%;
+}
+
+/* .crédit-end {
+  position: absolute;
+  margin-bottom: 50%;
 }
