@@ -1,5 +1,9 @@
-# Projet_Collectif_Template
+# Projet_Collectif--DataViz--byCindy/Corentin/Lorena 🚴
 
-Ce dépôt Git vous sert de base de travail pour les projets collectifs : en cliquant sur le lien fourni par l'encadrante, celui-ci sera automatiquement copié dans la dépôt que vous créerez pour ce projet.
+Ce projet collecfif était porté sur la création d'une page web qui affiche une data visualisation.
 
-Il ne vous reste plus qu'à vous lancer sur le projet collectif, et à mettre à jour le dépôt au fil de l'eau !
+Stack : HTML/CSS/JavaScript
+
+Nous avons créé une page web qui permet d'afficher en temps réel le nombre de Bicloo en circulation dans la ville de Nantes via un graphique en forme de roue et un compteur. Nous avons fait appelle à l'API de Nantes Métropole pour récupérer les données voulues.
+
+Premier projet qui à permis de nous familiarisé avec les requêtes API. 👌
